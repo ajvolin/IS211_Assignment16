@@ -1,6 +1,8 @@
 # IS211_FinalProject - Blog
 ## Adam Volin
 
+See it in action on PythonAnywhere: https://adamvolin56.pythonanywhere.com
+
 This app is a simple blog that allows users to register for an account and create blog posts. The application uses two Python files, db.py and app.py. db.py abstracts database connections and querying to simplify the code. app.py contains all of the application route logic and uses db.py for communicating with the database. The database used is sqlite for portability. The database is initialized and filled with dummy data when the index route is visited if the schema doesn't already exist and the tables are empty.
 
 This project makes extensive use of Bootstrap 4 (getbootstrap.com) for the layout and FontAwesome for iconography (fontawesome.com).
